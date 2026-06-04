@@ -4,12 +4,12 @@
 
 Nome
 ```
-$ git config --global user.name "Fulano de Tal"
+git config --global user.name "Fulano de Tal"
 ```
 
 E-mail
 ```
-$ git config --global user.email fulanodetal@exemplo.br
+git config --global user.email fulanodetal@exemplo.br
 ```
 
 Criar diretório
@@ -37,6 +37,23 @@ Clona o repositório remoto
 git clone código https do repositório remoto NOME
 ```
 
+**Fluxograma geral:**
+
+Coloca as alterações na área de preparação (staging)
+```
+git add .
+```
+
+Cria um commit com as alterações que estavam em staging.
+```
+git commit -m "Sua mensagem"
+```
+
+Envia os commits para o GitHub.
+```
+git push
+```
+
 Remover rastreamento do Git sobre a pasta (Arquivos do .gitignore)
 ```
 git rm -r --cached .devcontainer
@@ -52,7 +69,7 @@ Verificar Status
 git status
 ```
 
-Adicionar modificações
+Adicionar modificações de arquivos não rastreados
 ```
 git add .
 ```
@@ -82,6 +99,10 @@ Receber as atualizações do repositório Remoto no repositório Local
 git pull
 ```
 
+Alterar nomes de pastas
+```
+git mv "nomeAntigo" "nomeNovo"
+```
 
 ## Como usar o Git
 
