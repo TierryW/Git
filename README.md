@@ -37,6 +37,11 @@ Clona o repositório remoto
 git clone código https do repositório remoto NOME
 ```
 
+Remover rastreamento do Git sobre a pasta (Arquivos do .gitignore)
+```
+git rm -r --cached .devcontainer
+```
+
 Criar um README vazio
 ```
 touch README.md
