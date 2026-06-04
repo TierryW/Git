@@ -24,7 +24,7 @@ touch nome-diretorio/nome-do-arquivo.md
 
 Entrar no diretório
 ```
-cd nome-diretorio
+cd /c/user/your_repository
 ```
 
 Transformar no repositório Git
